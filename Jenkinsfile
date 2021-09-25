@@ -10,7 +10,7 @@ pipeline {
         npm install
         npm run build
         sudo npm install -g serve
-        serve is build
+        serve -s build
         '''
       }
     }
